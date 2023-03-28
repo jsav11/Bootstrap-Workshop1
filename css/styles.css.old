@@ -1,11 +1,9 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: azure;
 }
 
 h1, h2, h3 {
-    font-family: 'Bebas Neue', cursive;
-
+    font-family: "Lobster", cursive;
 }
 
 h2 {
@@ -35,7 +33,7 @@ header h2 {
 }
 
 .navbar-dark {
-    background-color: #5e32d7;
+    background-color: #901CAD;
 }
 
 a, a:hover {
@@ -51,4 +49,9 @@ a, a:hover {
       border: solid #5637DD;
   }
 
-  
+  #carouselButton {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+  }
