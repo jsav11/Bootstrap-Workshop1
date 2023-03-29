@@ -51,12 +51,12 @@
                                 <div class="col">
                                     <select class="form-control" name="numCampers" id="numCampers">
                                         <option>Select...</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                        <option>6</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
                                     </select>
                                 </div>
                             </div>
@@ -71,9 +71,9 @@
                                 <label class="col-sm-6 col-form-label" for="siteType">Campsite Type</label>
                                 <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
                                     <label class="btn btn-success">
-                                        <input type="radio" name="siteType" id="siteTent" />Tent</label>
+                                        <input type="radio" name="siteType" id="siteTent" value="Tent"/>Tent</label>
                                     <label class="btn btn-primary">
-                                        <input type="radio" name="siteType" id="siteRV" />RV</label>
+                                        <input type="radio" name="siteType" id="siteRV" value="RV"/>RV</label>
                                 </div>
                             </div>
                             <div class="form-row">
@@ -302,24 +302,8 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <script>
-        $(function () {
-            $(".carousel").carousel({ interval: 2000 });
-            $("#carouselButton").click(function () {
-                if ($("#carouselButton").children("i").hasClass("fa-pause")) {
-                    $(".carousel").carousel("pause");
-                    $("#carouselButton").children("i").removeClass("fa-pause");
-                    $("#carouselButton").children("i").addClass("fa-play");
-                } else {
-                    $(".carousel").carousel("cycle");
-                    $("#carouselButton").children("i").removeClass("fa-play");
-                    $("#carouselButton").children("i").addClass("fa-pause");
-                }
-            });
-        });
-    </script>
-
+    <script src="js/scripts.js"></script>
+       
 </body>
 
 </html>
