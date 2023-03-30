@@ -5,14 +5,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- build:css css/main.css -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
     <title>NuCamp: A Better Way To Camp</title>
 </head>
 
@@ -71,9 +74,9 @@
                                 <label class="col-sm-6 col-form-label" for="siteType">Campsite Type</label>
                                 <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
                                     <label class="btn btn-success">
-                                        <input type="radio" name="siteType" id="siteTent" value="Tent"/>Tent</label>
+                                        <input type="radio" name="siteType" id="siteTent" value="Tent" />Tent</label>
                                     <label class="btn btn-primary">
-                                        <input type="radio" name="siteType" id="siteRV" value="RV"/>RV</label>
+                                        <input type="radio" name="siteType" id="siteRV" value="RV" />RV</label>
                                 </div>
                             </div>
                             <div class="form-row">
@@ -299,11 +302,13 @@
         </div>
     </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-       
+    <!-- endbuild -->
+
 </body>
 
 </html>
