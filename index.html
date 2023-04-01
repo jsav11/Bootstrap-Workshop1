@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-md-4 col-xl-2 mt-4">
                     <a title="reserve form" href="#reserveModal" role="button" class="btn btn-lg btn-info"
-                        data-toggle="modal" data-placement="bottom" data-html="true">Reserve Campsite</a>
+                        id="reserveButton">Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-lg modal-dialog" role="document">
             <div class="modal-content">
-                <div class="bg-info text-white modal-header">
+                <div class="modal-header">
                     <h3 class="modal-title">Reserve a Campsite</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -111,7 +111,7 @@
                                 class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a title="login modal" href="#" role="button" data-toggle="modal" data-target="#loginModal">
+                    <a title="login modal" href="#" role="button" id="loginButton">
                         <i class="fa fa-sign-in"></i> Login
                     </a>
                 </span>
@@ -268,6 +268,7 @@
             </div>
         </div>
     </div>
+
     <footer class="site-footer">
         <div class="container">
             <div class="row">
@@ -280,7 +281,6 @@
                         <li><a href="contactus.html">Contact</a></li>
                     </ul>
                 </div>
-
                 <div class="col-6 col-sm-5 text-center">
                     <h5>Social</h5>
                     <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
@@ -301,6 +301,7 @@
             </div>
         </div>
     </footer>
+
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
